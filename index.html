@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Woah ano to</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main id="intro">
+
+        <!-- The actual birthday scene underneath -->
+        <div id="birthday-scene">
+
+                    <div class="stars"></div>
+
+                    <div class="birthday-banner">
+
+            <div class="banner-rope left-rope"></div>
+            <div class="banner-rope right-rope"></div>
+
+            <div class="banner">
+                <span>Happy Birthday</span>
+            </div>
+
+        </div>
+
+            <!-- Cake -->
+            <div id="cake">
+
+                <div class="candles">
+
+                    <div class="candle" data-candle="1">
+                        <div class="flame"></div>
+                        <div class="wick"></div>
+                        <div class="candle-body"></div>
+                    </div>
+
+                    <div class="candle" data-candle="2">
+                        <div class="flame"></div>
+                        <div class="wick"></div>
+                        <div class="candle-body"></div>
+                    </div>
+
+                    <div class="candle" data-candle="3">
+                        <div class="flame"></div>
+                        <div class="wick"></div>
+                        <div class="candle-body"></div>
+                    </div>
+
+                </div>
+
+                <div class="frosting"></div>
+
+                <div class="cake-body">
+                    <div class="cake-layer"></div>
+                </div>
+
+                <div class="cake-plate"></div>
+
+            </div>
+
+            <div class="candle-instructions">
+                <span>MAKE A WISH</span>
+                <p>Blow out the candles and then scroll after(blow into mic pag meron pero pag wala o di gumana double click anywhere)</p>
+            </div>
+
+        </div>
+
+
+        <!-- Darkness covering the birthday scene -->
+        <div id="darkness"></div>
+
+
+        <!-- Initial interaction -->
+        <div id="start-screen">
+
+            <p class="start-prompt">
+                touch to begin
+            </p>
+
+            <div class="scene-instructions">
+                <span>Before you Begin</span>
+                <p>Sana may earphones ka na may mic</p>
+            </div>
+
+        </div>
+
+    </main>
+
+            </div>
+
+    </main>
+
+    <!-- Second section -->
+                <section id="memory-section">
+
+                    <div class="memory-particles"></div>
+                    <div class="memory-content">
+                    
+
+                <p class="memory-note">
+                    Dito naman may nahanap ulit ako na kasama nung pic na sinend ko dati  
+                </p>
+
+                <p class="memory-note">
+                    Took me a while to restore this one though
+                </p>
+
+                <div class="gift-stage">
+
+                    <!-- BOX -->
+                    <div class="gift-box">
+
+                        <div class="gift-body"></div>
+
+                        <div class="gift-front"></div>
+
+                    </div>
+
+
+                    <!-- PHOTO -->
+                    <div class="gift-photo">
+
+                        <img
+                            src="assets/images/childhood-photo.png"
+                            alt="A childhood photograph"
+                        >
+
+                    </div>
+
+
+                    <!-- LID -->
+                    <div class="gift-lid"></div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="audio-section">
+
+        <div class="audio-stage">
+
+            <p class="audio-intro">
+                One last thing.
+            </p>
+
+            <p class="audio-subtext">
+                Baka akala mo nakalimutan ko yung mandarin but nahhh
+            </p>
+
+            <p class="audio-subtext">
+                Probably sounds bad but tried my best
+            </p>
+
+            <div class="sound-orb" id="sound-orb">
+
+                <div class="orb-core"></div>
+
+                <div class="orb-ring ring-one"></div>
+                <div class="orb-ring ring-two"></div>
+                <div class="orb-ring ring-three"></div>
+
+            </div>
+
+            <p class="audio-prompt">
+                tap to listen
+            </p>
+
+            <audio
+                id="birthday-audio"
+                src="assets/music/wow mandarin.mp3"
+                preload="auto">
+            </audio>
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
